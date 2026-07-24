@@ -4,8 +4,8 @@
 > 本项目目前处于**早期架构设计与原型开发阶段**，API 随时可能发生破坏性变更。本 README 作为项目的核心设计蓝图，后续代码将严格依照此文档的
 > Roadmap 进行实现。暂不提供稳定 Release 版本。
 
-一个面向 RAGE 引擎（GTA V / GTA VI / RDR2）的跨代际模组开发框架，旨在打破传统 C/C++ 或 C# 的开发壁垒，允许开发者使用 **Java
-** 语言编写游戏模组（Mod）。本项目通过桥接游戏底层 Hook SDK 与 Java 虚拟机，并**全面采用 Java 25 的 Foreign Function &
+一个面向 RAGE 引擎（GTA V / GTA VI / RDR2）的跨代际模组开发框架，旨在打破传统 C/C++ 或 C# 的开发壁垒，允许开发者使用 Java
+语言编写游戏模组（Mod）。本项目通过桥接游戏底层 Hook SDK 与 Java 虚拟机，并**全面采用 Java 25 的 Foreign Function &
 Memory (FFM) API**，实现了 Java 代码对游戏 Native 函数的安全、高效调用与内存操作。
 
 ---
